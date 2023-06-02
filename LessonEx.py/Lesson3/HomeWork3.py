@@ -42,3 +42,22 @@
 # 1 2 3 4 5
 # 6
 # -> 5
+
+import random
+
+number = 10
+list = []
+
+for i in range(number):
+    list.append(random.randint(0, 20))
+print(list)
+
+n = int(input())
+clouse = list[0]
+
+for i in list:
+    if abs(n - i) < abs(n - clouse):
+        clouse = i
+print(clouse)
+
+#Задачу 20 решить не смог, не разобрался, нужно больше времени.
