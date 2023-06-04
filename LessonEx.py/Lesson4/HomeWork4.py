@@ -4,21 +4,23 @@
 # m — кол-во элементов второго множества.
 # Затем пользователь вводит сами элементы множеств.
 
-set_a = set()
-set_b = set()
+# set_a = set()
+# set_b = set()
 
-n = int(input('1st set: '))
-m = int(input('2th set: '))
+# n = int(input('1st set: '))
+# m = int(input('2th set: '))
 
-for i in range(n):
-    p = int(input())
-    set_a.add(p)
+# for i in range(n):
+#     p = int(input())
+#     set_a.add(p)
 
-print(' ')
+# print(' ')
 
-for i in range(m):
-    p = int(input())
-    set_b.add(p)
+# for i in range(m):
+#     p = int(input())
+#     set_b.add(p)
 
-print(sorted(set_a))
-print(sorted(set_b))
+# print(sorted(set_a))
+# print(sorted(set_b))
+# ------------------------------------------------
+
