@@ -22,10 +22,19 @@
 # 2 2
 # 4 
 
-def Summa(a, b):
-    if (b < 0):
-        return 0
-    else:
-       return (a + Summa(a, b -1))
+# def Summa(a, b):
+#     if (b < 0):
+#         return 0
+#     else:
+#        return (a + Summa(a, b -1))
   
-print(Summa(1, 5))
+# print(Summa(1, 5))
+
+def Summa(a, b):
+    if b == 0:
+        return a
+    else:
+        return 1 + Summa(a, b - 1)
+
+
+print(Summa(3, 2))
